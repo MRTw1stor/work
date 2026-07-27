@@ -1,0 +1,178 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(29, 85, 100, 0.75);
+}
+
+.modalBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcf2;
+  border-radius: 20px;
+  gap: 30px;
+  max-width: 1544px;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 50px 0 50px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.button {
+  width: 100%;
+}
+
+.headerButton {
+  all: unset;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerButton:hover {
+  all: unset;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modalButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0 50px 50px 50px;
+}
+
+.modalButtons > *:nth-last-child(1):nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.modalButtons .button {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  height: 100%;
+  background-color: #ade1bd;
+}
+
+.modalButtons .button p {
+  transition: color 0.2s ease-in-out;
+}
+
+.modalButtons .button:hover {
+  background-color: #1d5564;
+}
+
+.modalButtons .button:hover p,
+.modalButtons .button:hover h5 {
+  color: #ade1bd;
+}
+
+.modalButtons .buttonTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  gap: 20px;
+}
+
+.modalButtons h5,
+.modalButtons p {
+  text-align: start;
+}
+
+.modalButtons .buttonTitle img {
+  height: auto;
+}
+
+.modalButtons .buttonDesc {
+  display: flex;
+}
+
+.actionBox {
+  display: flex;
+  width: 100%;
+  max-width: 1544px;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 15px;
+  align-items: flex-end;
+}
+
+.actionPhone {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.phoneButton {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ade1bd;
+}
+
+.phoneButton:hover {
+  background-color: #1d5564;
+}
+
+.actionMessage {
+  margin-right: 90px;
+}
+
+.messageButton {
+  background-color: #ade1bd;
+  position: relative;
+  padding: 10px 20px;
+}
+
+.messageButton .buttonText {
+  color: #1d5564;
+  transition: color 0.2s ease-in-out;
+}
+
+.messageButton:hover {
+  background-color: #1d5564;
+}
+
+.messageButton:hover .buttonText {
+  color: #ade1bd;
+}
+
+.buttonBadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  right: -12px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #e84f4f;
+  font-size: 18px;
+  color: #fcfcf2;
+}

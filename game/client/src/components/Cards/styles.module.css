@@ -1,0 +1,43 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  background-color: #a4dcdd;
+  padding: 94x 48px;
+}
+
+.headerTitle {
+  margin-left: 3em;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.headerPageName {
+  margin-right: 3em;
+}
+
+.pageName {
+  font-size: 54px;
+}
+
+.block {
+  max-width: 1732px;
+}
+
+.cards {
+  margin-top: 10vh;
+  display: flex;
+  gap: 100px;
+}

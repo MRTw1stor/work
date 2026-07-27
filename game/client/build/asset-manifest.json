@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.997163bb.css",
+    "main.js": "/static/js/main.0be2a617.js",
+    "static/media/GolosText-Bold.woff2": "/static/media/GolosText-Bold.2a931d6049d42eed563a.woff2",
+    "static/media/GolosText-Medium.woff2": "/static/media/GolosText-Medium.4fcf635766b42c2520aa.woff2",
+    "static/media/GolosText-Regular.woff2": "/static/media/GolosText-Regular.8231740e95531655fba5.woff2",
+    "index.html": "/index.html",
+    "main.997163bb.css.map": "/static/css/main.997163bb.css.map",
+    "main.0be2a617.js.map": "/static/js/main.0be2a617.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.997163bb.css",
+    "static/js/main.0be2a617.js"
+  ]
+}

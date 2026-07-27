@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Golos";
+  src: url("../public/fonts/GolosText-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Golos";
+  src: url("../public/fonts/GolosText-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Golos";
+  src: url("../public/fonts/GolosText-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: #1d5564;
+  font-family: "Golos", sans-serif;
+  margin-inline: 0;
+  margin-block: 0;
+  cursor: default;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 74px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 44px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  background-color: #1d5564;
+  font-family: "Golos", sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  border-radius: 20px;
+  transition: background-color 0.2s ease-in-out;
+  height: 70px;
+}
+
+button h4,
+button h5 {
+  transition: color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #a4dcdd;
+}
+
+button:hover h4,
+button:hover h5 {
+  color: #1d5564;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
